@@ -1,0 +1,138 @@
+body {
+    font-family: "Yanone Kaffeesatz", serif;
+}
+
+#Sobre {
+    background-color: #5dcaf8;
+}
+
+.navbar {
+    background-color: #004C6D;
+}
+
+#cabeçalho .nav .nav-link.active{
+    background-color: #ffffff;
+    color: rgb(231, 250, 255);
+    font-family: "Yanone Kaffeesatz", serif;
+}
+
+.nav-link {
+    color: white;
+}
+
+#cabeçalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.sectionfountain {
+    font-family: "Ysabeau SC", serif;
+    color: #ffffff;
+}
+
+/*.sectionfountain span {
+    color: #0274be;
+}*/
+
+#Eventos {
+    background-color: #001e31;
+}
+
+.col-md-4 {
+    color: white;
+}
+
+.text-colored {
+    color: #ffffff;
+}
+
+#Cardapio {
+    background-color: #5dcaf8;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #ffffff;
+    color: #001e31;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #288ab8;
+}
+
+.nav-cardapio .nav-link.active:hover {
+    color: #288ab8;
+}
+
+/*.text-colored2 {
+    background-color: #001e31;
+}*/
+
+.text-colored2.active {
+    color: #ffffff;
+}
+
+#FaleConosco {
+    background-color: #001e31;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#FaleConosco button {
+    background-color: #288ab8;
+    color: #001e31;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+footer {
+    background-color: #004C6D;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+/*
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.yanone-kaffeesatz-<uniquifier> {
+  font-family: "Yanone Kaffeesatz", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 1 to 1000
+
+.ysabeau-sc-<uniquifier> {
+  font-family: "Ysabeau SC", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
